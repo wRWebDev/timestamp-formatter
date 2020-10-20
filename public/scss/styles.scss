@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1, h2{
+    margin: 2pt;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36pt;
+}
+
+h2 {
+    font-size: 18pt;
+}
+
+article{
+    width: 60%;
+    margin: 20pt 0;
+
+    code{
+        display: block;
+        width: 100%;
+        padding: 5pt;
+        background: rgb(235, 230, 230);
+        font-family: monospace;
+        margin-bottom: 20pt;
+    }
+}

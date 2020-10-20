@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Timestamp Formatter</title>
+</head>
+<body>
+    <main>
+        <h1>Timestamp Formatter</h1>
+        <h2>An API for converting timestamps between UTC and UNIX</h2>
+        <article>
+            <p>
+                For today's date and time, go to:<br/>
+                <code>.../api/timestamp</code>
+            </p>
+            <p>
+                To convert a UNIX or UTC timestamp, insert them after the timestamp query:<br/>
+                <code>.../api/timestamp/YOUR_TIMESTAMP</code>
+            </p>
+            <p>
+                All data returned in JSON format. e.g:<br/>
+                <code>{"unix":1603187179778,"utc":"Tue, 20 Oct 2020 09:46:19 GMT"}</code>
+            </p>
+            <p>
+                Errors handled by returning a JSON object:<br/>
+                <code>{"error": "Invalid Date"}</code>
+            </p>
+        </article>
+    </main>
+</body>
+</html>
