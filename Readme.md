@@ -4,8 +4,8 @@ Timestamp Formatter
 ### An API for converting timestamps between UTC and UNIX
 
 #### Dependencies
-- node ^4.4.5
-- express ^4.17.1
+- node ^4.4.5
+- express ^4.17.1
 - cors ^2.8.5
 - dotenv ^8.2.0
 
